@@ -1,12 +1,9 @@
-import { useState } from "react";
+import { useContext } from 'react'
+import { ThemeContext } from '../context/ThemeContext'
 import '../styles/Header.css'
 
 export function Header() {
-  const [isDarkTheme, setIsDarkTheme] = useState(false);
-
-  function toggleTheme() {
-    setIsDarkTheme(!isDarkTheme);
-  }
+  const { theme, toggleTheme } = useContext(ThemeContext)
 
   return (
     <header className="header">
@@ -20,9 +17,9 @@ export function Header() {
           </ul>
         </nav>
         <button onClick={toggleTheme} className="theme-toggle">
-          {isDarkTheme ? "🌙" : "☀️"}
+          {theme === 'dark' ? '🌙' : '☀️'}
         </button>
       </div>
     </header>
-  );
+  )
 }
