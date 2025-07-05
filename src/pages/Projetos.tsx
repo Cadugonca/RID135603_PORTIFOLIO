@@ -1,5 +1,5 @@
 import { ProjetoCard } from '../components/ProjetoCard'
-import './Projetos.css'
+import '../styles/Projetos.css'
 import reactLogo from '../assets/react.svg' // substitua depois pelas imagens dos seus projetos
 
 export function Projetos() {
