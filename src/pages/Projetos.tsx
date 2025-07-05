@@ -8,28 +8,28 @@ export function Projetos() {
       <h2>Projetos</h2>
       <div className="projetos-grid">
         <ProjetoCard
-          titulo="PROJETO 1"
-          descricao="Um projeto incrível feito com React."
+          titulo="Barbearia Estilo Fino"
+          descricao="Um projeto feito fora da escola para testes de habilidades em React."
           imagem={reactLogo}
-          link="https://github.com/seuusuario/projeto1"
+          link="https://github.com/Cadugonca/estilofino"
         />
         <ProjetoCard
-          titulo="PROJETO 2"
-          descricao="Um sistema moderno para gestão de tarefas."
+          titulo="Dashboard de vendas"
+          descricao="Projeto com dnc envolvendo localstorage, login e gráficos."
           imagem={reactLogo}
-          link="https://github.com/seuusuario/projeto2"
+          link="https://github.com/Cadugonca/sales-dashboard"
         />
         <ProjetoCard
-          titulo="PROJETO 3"
-          descricao="Landing page responsiva com animações."
+          titulo="Task Manager"
+          descricao="Gerenciador de tarefas com autenticação e persistência de dados."
           imagem={reactLogo}
-          link="https://github.com/seuusuario/projeto3"
+          link="https://github.com/Cadugonca/RID-135603_TaskManager"
         />
         <ProjetoCard
-          titulo="PROJETO 4"
-          descricao="Dashboard com gráficos e autenticação."
+          titulo="Arquitetura - Projeto Carlos"
+          descricao="Desenvolvimento de um projeto fictício para fins de estudo."
           imagem={reactLogo}
-          link="https://github.com/seuusuario/projeto4"
+          link="https://github.com/Cadugonca/dnc-arq-carlos"
         />
       </div>
     </section>
