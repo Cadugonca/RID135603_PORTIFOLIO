@@ -1,0 +1,44 @@
+.sobre {
+  background-color: #0f172a;
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.sobre h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.linha-do-tempo {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.linha-do-tempo-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  border-left: 3px solid #7b61ff;
+  padding-left: 1rem;
+}
+
+.linha-do-tempo-ano {
+  font-weight: bold;
+  font-size: 1.2rem;
+  min-width: 60px;
+  color: #7b61ff;
+}
+
+.linha-do-tempo-conteudo h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.linha-do-tempo-conteudo p {
+  font-size: 1rem;
+  color: #cbd5e1;
+}
