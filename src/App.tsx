@@ -3,6 +3,7 @@ import { Header } from './components/Header'
 import { Hero } from './components/Hero'
 import { LinhaDoTempo } from './components/LinhaDoTempo'
 import { Footer } from './components/Footer'
+import { ScrollToTopButton } from './components/ScrollToTopButton'
 
 
 
@@ -14,6 +15,7 @@ function App() {
       <Projetos />
      <LinhaDoTempo />
      <Footer />
+     <ScrollToTopButton />
     </>
   )
 }
