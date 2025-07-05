@@ -1,17 +1,92 @@
-body.dark {
-  background-color: #0f172a;
-  color: white;
-}
-
+/* Light Theme */
 body.light {
   background-color: #f0f0f0;
   color: #111;
 }
 
+body.light .hero {
+  background-color: #f0f0f0;
+}
+
+body.light .header {
+  background-color: #ffffff;
+  color: #111;
+}
+
+body.light .projeto-card {
+  background-color: #ffffff;
+  color: #111;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+}
+
+body.light .sobre {
+  background-color: #f0f0f0;
+  color: #3f2727;
+}
+
+body.light {
+  --linha-color: #3d9dff;
+  --descricao-color: #000000;
+}
+
+
+body.light .hero-button,
+body.light .projeto-btn {
+  background: #3d9dff;
+  color: #fff;
+}
+
+body.light .footer {
+  background-color: #e2e8f0;
+  color: #111;
+}
+
 body.light a {
-  color: #333;
+  color: #000000;
+}
+
+/* Dark Theme */
+body.dark {
+  background-color: #0f172a;
+  color: #ffffff;
+}
+
+body.dark .hero {
+  background-color: #0f172a;
+}
+
+body.dark .header {
+  background-color: #1e293b;
+  color: white;
+}
+
+body.dark {
+  --linha-color: #7b61ff;
+  --descricao-color: #cbd5e1;
+}
+
+body.dark .projeto-card {
+  background-color: #000000;
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+body.dark .hero-button,
+body.dark .projeto-btn {
+  background: linear-gradient(90deg, #7b61ff, #3d9dff);
+  color: #fff;
+}
+
+body.dark .footer {
+  background-color: #1e293b;
+  color: white;
 }
 
 body.dark a {
   color: #7b61ff;
+}
+
+
+.hero {
+  transition: background-color 0.3s ease, color 0.3s ease;
 }

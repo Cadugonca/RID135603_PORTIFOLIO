@@ -3,6 +3,9 @@
   color: white;
   padding: 4rem 2rem;
   text-align: center;
+  padding: 4rem 2rem;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .sobre h2 {
@@ -24,6 +27,7 @@
   align-items: flex-start;
   border-left: 3px solid #7b61ff;
   padding-left: 1rem;
+  transition: border-color 0.3s ease;
 }
 
 .linha-do-tempo-ano {

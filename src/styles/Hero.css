@@ -20,12 +20,12 @@
 .hero p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
-  color: #cbd5e1;
+  color: #c5ccd4;
 }
 
 .hero-button {
   background: linear-gradient(90deg, #7b61ff, #3d9dff);
-  color: white;
+  color: rgb(149, 114, 114);
   padding: 0.75rem 2rem;
   border-radius: 25px;
   font-weight: bold;
