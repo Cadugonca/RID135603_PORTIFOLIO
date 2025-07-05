@@ -1,4 +1,4 @@
-import './ProjetoCard.css'
+import '../styles/Projetos.css'
 
 interface ProjetoCardProps {
   titulo: string
